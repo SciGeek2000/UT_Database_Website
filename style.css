@@ -57,7 +57,7 @@ header
 
 .figures img{
 	display: inline-block;
-	position: absolute;
+	float: left;
 	top: 150px;
 	left: 50px;
 	height: 500px;
