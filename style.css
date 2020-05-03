@@ -54,3 +54,11 @@ header
 	top: 50px;
 	left: 20px;
 }
+
+.figures{
+	display: inline;
+	top: 50px;
+	left: 20px;
+	height: 400px;
+	width: auto;
+}
