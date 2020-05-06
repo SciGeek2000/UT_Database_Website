@@ -1,0 +1,56 @@
+<!--CREATING THE DOCUMENT AND SETTING STYLE SHEET--> 
+<!DOCTYPE html> 
+<html lang="en-US">
+<head>
+<title>UT Database Website</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<!--STYLE GUIDE FOR THIS PAGE-->
+<style>
+ul {
+
+}
+
+li {
+	display: inline
+}
+
+</style>
+
+</head>
+<body>
+	<header>
+		<!--CONSTRUCTING HEADER BAR-->
+		<div class="row">
+			<img src="LHCb_logo.png" alt = 'LHCb logo'>
+			<img src = "Maryland_logo.png" alt = 'Maryland Logo'>
+			<ul class="main-nav">
+				<li><a href = "index.html"> Home </a></li>
+				<li><a href = "Backplanes.html"> Backplanes </a></li>
+				<li><a href = "DCBs.html"> DCBs </a></li>
+				<li class = "active"><a href = "LVRs.html"> LVRs </a></li>
+				<li><a href = "CCMs.html"> CCMs </a></li>
+				<li><a href = "CONTACT.html"> CONTACT </a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<!--BODY TEXT-->
+	<div class="figures">
+	<p class = head>Low Voltage Regulators (LVRs) provide a smooth and reliable power supply for the silicon detectors and DCBs. 
+	This board can be configured to have up to eight attached daughter CCMs. 
+	Shown below are graphs detailing the current progress of these boards. For specific information regarding boards 
+	with anamolous database flags, please refer to the textfile embedded at the bottom of the page.
+	</p>
+	
+	<!--LIST OF IMAGES-->
+	<ul> 
+		<li><img src="LVRs_By_Type.png" alt = "LVRs By Type"></li>
+		<li><img src="LVR_InitialQAPieChart.png" alt = "LVR Initial QA Pie Chart"></li>
+	</ul>
+	</div>
+	
+	<!--EMBEDDED TEXT FROM TEXTBOX-->
+	<object type="text/html" data = "Demonstration_Output_LVR.txt" width = 100% height = 300></object>
+	</body>
+</html>

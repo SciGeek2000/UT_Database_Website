@@ -1,0 +1,91 @@
+*
+/*MARGIN FOR ALL ELMENTS (NULL)*/
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER FORMATTING*/
+header
+{}
+
+/*MAIN NAV BAR FLOATS TO THE RIGHT*/
+.main-nav
+{
+	float: right;
+	position: relative;
+	padding: 24px 0px;
+}
+
+/*THE NAV BAR (LIST)*/
+.main-nav li
+{
+	display: inline;
+	
+}
+
+/*CLICKABLE LINKS OF THE HEADLINE FORMATTING*/
+.main-nav li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+/*FORMATTING FOR HOVERING MOUSE*/
+.main-nav li a:hover
+{
+	background-color: lightgray;
+	padding: 5px 19px;
+	border: 1px solid black;
+}
+ /*FORMATTING FOR CURRENT PAGE*/
+.main-nav li.active a
+{
+	background-color: lightgray;
+	padding: 5px 19px;
+	border: 1px solid black;
+}
+
+/*FORMATTING FOR LHCB/MARYLAND LOGO*/
+div.row img{
+	height: 70px;
+	width: auto;
+	position: relative;
+	left: 10px;
+	margin: auto;
+	padding-right: 15px;
+}
+
+/*FORMATTING FOR TOP COLORED BAR*/
+.row{
+	background: tan;
+	padding: 20px 0;
+}
+
+/*FORMATTING FOR HEADER PARAGRAPH*/
+p.head{
+	position: relative;
+	top: 50px;
+	font-size: 22px;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+/*FORMATTING FOR MAIN GRAPHS*/
+.figures img{
+	position: relative;
+	margin: 0;
+	top: 10px;
+	left: 20px;
+	height: 400px;
+	width: auto;
+	padding: 100px 10px;
+}
+
+/*DISPLAYS TEXT FILE OR DOWNLOADABLE TEXT FILE*/
+/*FOOTER FORMATTING*/

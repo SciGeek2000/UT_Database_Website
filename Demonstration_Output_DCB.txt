@@ -1,0 +1,74 @@
+DCB General Stats
+The total number of boards (assembled, not assembled, unknown): 170
+The number of assembled boards: 50
+The number of boards not assembled: 119
+The number of boards with unknown condition: 1
+
+Assembled DCB Stats
+For DCB with ID 1, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 2, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 3, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 4, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 5, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 6, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 8, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 9, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 10, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 11, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 12, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 13, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 14, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 15, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 16, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 17, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 18, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 19, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 20, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 21, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 22, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 23, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 24, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 25, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 26, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 27, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 28, Location - UMD, Assembled - Yes, and Fused - yes
+For DCB with ID 29, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 30, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 31, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 32, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 33, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 34, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 35, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 36, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 37, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 38, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 39, Location - UMD, Assembled - yes, and Fused - yes
+For DCB with ID 40, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 41, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 42, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 43, Location - UMD, Assembled - yes, and Fused - 
+For DCB with ID 44, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 45, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 46, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 47, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 48, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 49, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 50, Location - UMD, Assembled - Yes, and Fused - 
+For DCB with ID 51, Location - UMD, Assembled - Yes, and Fused - 
+
+Assembled DCB Comments
+For assembled DCB with ID 4, the comment is: TP5 to backplate had resistance of 1-2 ohms, due to extra globs of solder on back, fixed with capton tape.
+For assembled DCB with ID 11, the comment is: fused twice 
+For assembled DCB with ID 13, the comment is: GBTx not being detected after writing master txt, not going to waitDESlLock, alternating between different statuses -> goes away when 2v5 powered
+For assembled DCB with ID 16, the comment is: MC Mezzanine difficult to install, need to go on new backplate
+For assembled DCB with ID 18, the comment is: After writing GBTx not going to waitDESLock, alternating statuses -> goes away when 2v5 powered
+For assembled DCB with ID 22, the comment is: careful when handling, lots of thermal paste
+For assembled DCB with ID 24, the comment is: goes to idle after writing master.txt when 2v5 is not powered.  Otherwise, locks normally.
+For assembled DCB with ID 26, the comment is: GBTx #3 reports errors instantly, test pattern and memory monitoring looks good
+For assembled DCB with ID 29, the comment is: problem with fusing, the computer does not recognize the board as connected
+For assembled DCB with ID 31, the comment is: Originally had jumper J13 in wrong place (shorting the board) and was run with 3.3V, fixed jumper position and proceeded to fuse and complete PRBS without problem
+For assembled DCB with ID 32, the comment is: invalid input sequence for GBT 2,3/ saw data valid not being pulled up
+For assembled DCB with ID 48, the comment is: problem with fusing, the computer does not recognize the board as connected
+
+Not Assembled DCB Comments
+For the DCB with ID 52, the comment is: backplate

@@ -1,0 +1,56 @@
+LVR General Stats
+The total number of boards 40
+Number of LVR Type WVJCZ: 10
+Number of LVR Type WVJEN: 16
+Number of LVR Type WVJER: 12
+Number of LVR Type WVJES: 2
+
+LVR Stats
+
+Type WVJCZ LVR's
+For LVR with ID 1, and serial number WVJCZ-001:[CCM: 12A5]
+For LVR with ID 2, and serial number WVJCZ-002:[CCM: 25A09]
+For LVR with ID 3, and serial number WVJCZ-003:[CCM: 15M5/15S5]
+For LVR with ID 4, and serial number WVJCZ-004:[CCM: 15M5/15S5]
+For LVR with ID 5, and serial number WVJCZ-005:[CCM: 25A09]
+For LVR with ID 6, and serial number WVJCZ-006:[CCM: 15M5/15S5]
+For LVR with ID 7, and serial number WVJCZ-007:[CCM: 15M5/15S5]
+For LVR with ID 8, and serial number WVJCZ-008:[CCM: 15M5/15S5]
+For LVR with ID 9, and serial number WVJCZ-009:[CCM: 12A5]
+For LVR with ID 10, and serial number WVJCZ-010:[CCM: 15M5/15S5]
+
+Type WVJEN LVR's
+For LVR with ID 11, and serial number WVJEN-011:[CCM: 25A09]
+For LVR with ID 12, and serial number WVJEN-012:[CCM: 15M5/15S5]
+For LVR with ID 13, and serial number WVJEN-013:[CCM: 25A09]
+For LVR with ID 14, and serial number WVJEN-014:[CCM: 15M5/15S5]
+For LVR with ID 15, and serial number WVJEN-002:[CCM: 15M5/15S5]
+For LVR with ID 16, and serial number WVJEN-003:[CCM: 15M5/15S5]
+For LVR with ID 17, and serial number WVJEN-006:[CCM: 25A09]
+For LVR with ID 18, and serial number WVJEN-001:[CCM: 15M5/15S5]
+For LVR with ID 19, and serial number WVJEN-010:[CCM: 15M5/15S5]
+For LVR with ID 20, and serial number WVJEN-004:[CCM: 25A09]
+For LVR with ID 21, and serial number WVJEN-018:[CCM: 25A09]
+For LVR with ID 22, and serial number WVJEN-005:[CCM: 12A5]
+For LVR with ID 23, and serial number WVJEN-020:[CCM: 12A5]
+For LVR with ID 24, and serial number WVJEN-009:[CCM: 12A5]
+For LVR with ID 25, and serial number WVJEN-007:[CCM: 12A5]
+For LVR with ID 26, and serial number WVJEN-008:[CCM: 12A5]
+
+Type WVJER LVR's
+For LVR with ID 27, and serial number WVJER-002:[CCM: 12A5]
+For LVR with ID 28, and serial number WVJER-001:[CCM: 12A5]
+For LVR with ID 29, and serial number WVJER-018:[CCM: 12A5]
+For LVR with ID 30, and serial number WVJER-019:[CCM: 12A5]
+For LVR with ID 31, and serial number WVJER-016:[CCM: 12A5]
+For LVR with ID 32, and serial number WVJER-017:[CCM: 25A09]
+For LVR with ID 33, and serial number WVJER-014:[CCM: 25A09]
+For LVR with ID 34, and serial number WVJER-012:[CCM: 25A09]
+For LVR with ID 35, and serial number WVJER-013:[CCM: 25A09]
+For LVR with ID 36, and serial number WVJER-010:[CCM: 12A5]
+For LVR with ID 37, and serial number WVJER-011:[CCM: 12A5]
+For LVR with ID 39, and serial number WVJER-015:[CCM: 12A5]
+
+Type WVJES LVR's
+For LVR with ID 38, and serial number WVJES-012:[CCM: 12A5]
+For LVR with ID 40, and serial number WVJES-011:[CCM: 12A5]
