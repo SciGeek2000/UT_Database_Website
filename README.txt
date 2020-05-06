@@ -10,7 +10,7 @@ This repository contains three distinct section:
 **************************************************************************
 SECTION 1: GOOGLE SHEETS SCRAPER (Google_Sheets_Scraper.exe)
 
-The google sheets scraper is a very short but powerful program that converts the data from the online google sheets database into four csv files: CSV_Backplane, CSV_CCM, CSV_DCB, and CSV_LVR. These four files have had no processing done to them and are simply saved in the local directory. This script was unable to be transformed into a .exe file so is only available as a .py file.
+The google sheets scraper is a very short but powerful program that converts the data from the online google sheets database into four csv files: CSV_Backplane, CSV_CCM, CSV_DCB, and CSV_LVR. These four files have had no processing done to them and are simply saved in the local directory. This script was unable to be transformed into a .exe file so is only available as a .py file. Additionally, for security reasons, my (*Thomas*) personal "credentials-sheets.json" which is required to run this script has not been uploaded. If an individual would like to run this script, simply aquire a credential sheet from a google account that can access the database page and ensure that the .py script and the credentials file are in the same directory.
 
 **************************************************************************
 SECTION 2: PYTHON PARSING SCRIPT (Database_Parser.exe)
