@@ -2,7 +2,7 @@
 LCHb DATABASE DISPLAY WEBISTE
 #############################
 
-This repository contains three distinct section:
+This repository contains three distinct sections:
 1.) Google Sheets Scraper
 2.) Python Parsing Script
 3.) Hosted html pages
