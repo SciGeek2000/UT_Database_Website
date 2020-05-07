@@ -1,74 +1,535 @@
 DCB General Stats
-The total number of boards (assembled, not assembled, unknown): 170
+The total number of boards (assembled, unassembled, other): 170
 The number of assembled boards: 50
-The number of boards not assembled: 119
-The number of boards with unknown condition: 1
+The number of unassembled boards: 119
+The number of other boards: 1
+
+Definitions
+Assembled - Has serial number, and has 'Yes' or 'yes' recorded in the 'Assembled' column.
+Unassembled - Has serial number, has a blank entry in the 'Assembled' column.
+Other - Has serial number, has an entry recorded in the 'Assembled' column that isn't yes and isn't blank. Either special condition or typo.
 
 Assembled DCB Stats
-For DCB with ID 1, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 2, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 3, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 4, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 5, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 6, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 8, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 9, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 10, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 11, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 12, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 13, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 14, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 15, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 16, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 17, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 18, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 19, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 20, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 21, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 22, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 23, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 24, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 25, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 26, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 27, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 28, Location - UMD, Assembled - Yes, and Fused - yes
-For DCB with ID 29, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 30, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 31, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 32, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 33, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 34, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 35, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 36, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 37, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 38, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 39, Location - UMD, Assembled - yes, and Fused - yes
-For DCB with ID 40, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 41, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 42, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 43, Location - UMD, Assembled - yes, and Fused - 
-For DCB with ID 44, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 45, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 46, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 47, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 48, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 49, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 50, Location - UMD, Assembled - Yes, and Fused - 
-For DCB with ID 51, Location - UMD, Assembled - Yes, and Fused - 
+Format: [ DCB ID | Location | Fused | PRBS | 1.5V Test | 2.5V Test ]
+Comment: [Text Here]
 
-Assembled DCB Comments
-For assembled DCB with ID 4, the comment is: TP5 to backplate had resistance of 1-2 ohms, due to extra globs of solder on back, fixed with capton tape.
-For assembled DCB with ID 11, the comment is: fused twice 
-For assembled DCB with ID 13, the comment is: GBTx not being detected after writing master txt, not going to waitDESlLock, alternating between different statuses -> goes away when 2v5 powered
-For assembled DCB with ID 16, the comment is: MC Mezzanine difficult to install, need to go on new backplate
-For assembled DCB with ID 18, the comment is: After writing GBTx not going to waitDESLock, alternating statuses -> goes away when 2v5 powered
-For assembled DCB with ID 22, the comment is: careful when handling, lots of thermal paste
-For assembled DCB with ID 24, the comment is: goes to idle after writing master.txt when 2v5 is not powered.  Otherwise, locks normally.
-For assembled DCB with ID 26, the comment is: GBTx #3 reports errors instantly, test pattern and memory monitoring looks good
-For assembled DCB with ID 29, the comment is: problem with fusing, the computer does not recognize the board as connected
-For assembled DCB with ID 31, the comment is: Originally had jumper J13 in wrong place (shorting the board) and was run with 3.3V, fixed jumper position and proceeded to fuse and complete PRBS without problem
-For assembled DCB with ID 32, the comment is: invalid input sequence for GBT 2,3/ saw data valid not being pulled up
-For assembled DCB with ID 48, the comment is: problem with fusing, the computer does not recognize the board as connected
+[ DCB ID: 1 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
 
-Not Assembled DCB Comments
-For the DCB with ID 52, the comment is: backplate
+[ DCB ID: 2 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 3 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 4 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: TP5 to backplate had resistance of 1-2 ohms, due to extra globs of solder on back, fixed with capton tape.
+
+[ DCB ID: 5 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 6 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 8 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 9 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 10 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 11 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: fused twice 
+
+[ DCB ID: 12 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 13 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: GBTx not being detected after writing master txt, not going to waitDESlLock, alternating between different statuses -> goes away when 2v5 powered
+
+[ DCB ID: 14 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 15 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.55 | 2.5V Test: 0.78 ]
+Comment: No recorded comment.
+
+[ DCB ID: 16 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: MC Mezzanine difficult to install, need to go on new backplate
+
+[ DCB ID: 17 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 18 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: After writing GBTx not going to waitDESLock, alternating statuses -> goes away when 2v5 powered
+
+[ DCB ID: 19 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 20 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 21 | Location: UMD | Fused: yes | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 22 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: careful when handling, lots of thermal paste
+
+[ DCB ID: 23 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 24 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: goes to idle after writing master.txt when 2v5 is not powered.  Otherwise, locks normally.
+
+[ DCB ID: 25 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.56 | 2.5V Test: 0.78 ]
+Comment: No recorded comment.
+
+[ DCB ID: 26 | Location: UMD | Fused: yes | PRBS: bad | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: GBTx #3 reports errors instantly, test pattern and memory monitoring looks good
+
+[ DCB ID: 27 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test:   | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 28 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 29 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: problem with fusing, the computer does not recognize the board as connected
+
+[ DCB ID: 30 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.65 | 2.5V Test: 0.78 ]
+Comment: No recorded comment.
+
+[ DCB ID: 31 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.55 | 2.5V Test: 0.78 ]
+Comment: Originally had jumper J13 in wrong place (shorting the board) and was run with 3.3V, fixed jumper position and proceeded to fuse and complete PRBS without problem
+
+[ DCB ID: 32 | Location: UMD | Fused: yes | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: invalid input sequence for GBT 2,3/ saw data valid not being pulled up
+
+[ DCB ID: 33 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 34 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.58 | 2.5V Test: 0.79 ]
+Comment: No recorded comment.
+
+[ DCB ID: 35 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.64 | 2.5V Test: 0.8 ]
+Comment: No recorded comment.
+
+[ DCB ID: 36 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 37 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 38 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 39 | Location: UMD | Fused: yes | PRBS: yes | 1.5V Test: 4.57 | 2.5V Test: 0.77 ]
+Comment: No recorded comment.
+
+[ DCB ID: 40 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 41 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 42 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 43 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 44 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 45 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 46 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 47 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 48 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: problem with fusing, the computer does not recognize the board as connected
+
+[ DCB ID: 49 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 50 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+[ DCB ID: 51 | Location: UMD | Fused:  | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: No recorded comment.
+
+
+Unassembled DCB Stats
+Format: [ DCB ID | Location ]
+Comment: [Text Here]
+
+[ DCB ID: 52 | Location: UMD ]
+Comment: backplate
+
+[ DCB ID: 53 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 54 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 55 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 56 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 57 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 58 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 59 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 60 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 61 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 62 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 63 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 64 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 65 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 66 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 67 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 68 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 69 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 70 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 71 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 72 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 73 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 74 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 75 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 76 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 77 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 78 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 79 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 80 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 81 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 82 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 83 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 84 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 85 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 86 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 87 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 88 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 89 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 90 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 91 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 92 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 93 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 94 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 95 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 96 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 97 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 98 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 99 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 100 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 101 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 102 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 103 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 104 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 105 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 106 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 107 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 108 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 109 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 110 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 111 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 112 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 113 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 114 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 115 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 116 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 117 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 118 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 119 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 120 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 121 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 122 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 123 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 124 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 125 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 126 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 127 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 128 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 129 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 130 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 131 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 132 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 133 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 134 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 135 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 136 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 137 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 138 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 139 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 140 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 141 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 142 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 143 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 144 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 145 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 146 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 147 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 148 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 149 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 150 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 151 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 152 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 153 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 154 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 155 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 156 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 157 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 158 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 159 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 160 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 161 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 162 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 163 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 164 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 165 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 166 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 167 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 168 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 169 | Location: UMD ]
+Comment: No recorded comment.
+
+[ DCB ID: 170 | Location: UMD ]
+Comment: No recorded comment.
+
+
+Other DCB Stats
+Format: [ DCB ID | Assembled Status | Location | Fused | PRBS | 1.5V Test | 2.5V Test ]
+Comment: [Text Here]
+
+[ DCB ID: 7 | Status: Disassembled | Location: UMD | Fused: yes | PRBS:  | 1.5V Test: N/A | 2.5V Test: N/A ]
+Comment: TP5 to backplate res < 1ohm, caused power to shut off when fusing; Took apart applied more thermal paste then reassembled, found a scratch on the back of the DCB and a bent pin on the master optical mezzanine slot; Succeeded in fusing board.  Returning to manufacturer to fix bent pin (J7, pin 58)
+
