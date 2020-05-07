@@ -15,7 +15,7 @@ The google sheets scraper is a very short but powerful program that converts the
 **************************************************************************
 SECTION 2: PYTHON PARSING SCRIPT (Database_Parser.exe)
 
-This python script takes the four .csv files outputted from section 1 and performs a number of operations on them to process the data. This data is then formatted into pyplots internally and these pyplots are saved in the local directory. Text files that contain data with anamolous flags are also saved to the directory. More information regarding the specifics of this process can be found within the file itself. This script can be found in both a .exe form and a .py form. NOTE: The .exe form takes significantly longer to run that a real-time complile of the .py form because of the size of the pyplot module.
+This python script takes the four .csv files outputted from section 1 and performs a number of operations on them to process the data. This data is then formatted into pyplots internally and these pyplots are saved in the local directory. A DCB text file that contain data with anamolous flags are also saved to the directory. More information regarding the specifics of this process can be found within the file itself. This script can be found in a .py form. NOTE: An .exe form takes significantly longer to run that a real-time complile of the .py form because of the size of the pyplot module.
 
 **************************************************************************
 Section 3: HOSTED HTML PAGES
@@ -25,7 +25,7 @@ This set of six webpages (Backplanes, CCMs, CONTACT, DCBs, LVRs, and index) toge
 **************************************************************************
 PERPOSED METHOD OF OPERATION:
 
-A microprocessor, such as a rasberry pi, would first be loaded with all of the files listed above. A small terminal script would then be run that is executed twice(?) a day. This script first runs the google scraper(1). After this is done, the script runs the .exe database paraser on the newly created .csv files(2). The updated pyplots and .txt files are then pushed to the github website and commited so that the hosted .html files can display the updated information(3).
+A microprocessor, such as a rasberry pi, would first be loaded with all of the files listed above. A small terminal script would then be run that is executed twice(?) a day. This script first runs the google scraper(1). After this is done, the script runs the .exe database paraser on the newly created .csv files(2). The updated pyplots and .txt file are then pushed to the github website and commited so that the hosted .html files can display the updated information(3).
 
 
 CREDITS: Thomas Ersevim, Raymond Su, Claudio Pineda
